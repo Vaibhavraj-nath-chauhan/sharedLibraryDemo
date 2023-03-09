@@ -1,0 +1,46 @@
+{
+  "name": "demo-shared-library",
+  "version": "1.0.0",
+  "description": "contains backend code for csm",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js",
+    "coverage": "nyc --reporter=lcov mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hashids": "^2.2.10",
+    "htmlencode": "^0.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.2",
+    "mongoose": "^6.1.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.2",
+    "nyc": "^15.1.0",
+    "pg": "^8.7.1",
+    "redis": "^4.0.6",
+    "request": "^2.88.2",
+    "shortid": "^2.2.16",
+    "sinon": "^13.0.1",
+    "sonarqube-scanner": "^2.8.1",
+    "stripe": "^8.195.0",
+    "swagger-ui-express": "^4.3.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.7.2",
+    "winston-aws-cloudwatch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
